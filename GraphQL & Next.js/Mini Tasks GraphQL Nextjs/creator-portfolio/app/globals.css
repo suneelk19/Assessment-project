@@ -1,0 +1,84 @@
+/* File: app/globals.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f7fc;
+  padding:40px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  background:#ffffff;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  font-size:16px;
+}
+
+.button-group{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+button{
+  padding:12px 20px;
+  border:none;
+  border-radius:8px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#1d4ed8;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.card h2{
+  color:#2563eb;
+  margin-bottom:10px;
+}
+
+.card p{
+  margin-bottom:10px;
+  color:#555;
+}
+
+.empty{
+  text-align:center;
+  margin-top:30px;
+  color:gray;
+}
