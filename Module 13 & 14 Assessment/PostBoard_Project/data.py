@@ -1,0 +1,5 @@
+# data.py
+
+users = []
+
+posts = []
